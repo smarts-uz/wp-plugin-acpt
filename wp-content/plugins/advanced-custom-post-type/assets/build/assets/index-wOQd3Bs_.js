@@ -1,0 +1,1 @@
+import{j as c}from"./fields-Uuj9pZLj.js";import"./vendor-D21mNUGX.js";import{P as e,I as t}from"./index-DW87FRXD.js";const i=({status:o})=>{const r=o?"bx:bx-check-circle":"bx:bx-x-circle",s=o?"#02C39A":"#F94144";return c.jsx(t,{icon:r,color:s,width:24})};i.propTypes={status:e.bool.isRequired};export{i as B};

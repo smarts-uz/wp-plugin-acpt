@@ -88,10 +88,11 @@ $table_prefix = 'wp_';
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
 if ( ! defined( 'WP_DEBUG' ) ) {
-	define( 'WP_DEBUG', false );
+	define( 'WP_DEBUG', true );
 }
-
+define( 'WP_DEBUG_DISPLAY', false );
 define( 'WP_ENVIRONMENT_TYPE', 'local' );
+define( 'DUPLICATOR_AUTH_KEY', '[Cz6$(C^[)$!DJPV}HE67/hXBzA/nL`$_.TJ<Bn]u=$bMi+zYl*@OIN:I`kFi%(&' );
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
