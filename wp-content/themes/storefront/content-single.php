@@ -43,7 +43,10 @@
 	// delete_acpt_post_type('book', true);
 
 	//assoc_acpt_taxonomy_to_acpt_post
-	assoc_acpt_taxonomy_to_acpt_post('ctax', 'post');
+	// assoc_acpt_taxonomy_to_acpt_post('ctax', 'post');
+
+	//remove_assoc_acpt_taxonomy_from_acpt_post
+	remove_assoc_acpt_taxonomy_from_acpt_post('ctax', 'post');
 
 	/**
 	 * Functions hooked in to storefront_single_post_bottom action
