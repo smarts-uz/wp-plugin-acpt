@@ -39,6 +39,9 @@
 	]);
 	echo 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadfwfda';
 
+	//delete_acpt_post_type
+	delete_acpt_post_type('book', true);
+
 	/**
 	 * Functions hooked in to storefront_single_post_bottom action
 	 *
