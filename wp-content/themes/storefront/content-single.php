@@ -20,27 +20,30 @@
 	 */
 	do_action( 'storefront_single_post' );
 
-	register_acpt_post_type([ 
-		'post_name' => 'book', 
-		'singular_label' => 'New book', 
-		'plural_label' => 'New books', 
-		'icon' => 'admin-appearance',
-		'supports' => [ 
-			'title',
-			'editor', 
-			'comments', 
-			'revisions', 
-			'trackbacks', 
-			'author', 
-			'excerpt',
-		], 
-		'labels' => [], 
-		'settings' => [], 
-	]);
-	echo 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadfwfda';
+	// register_acpt_post_type([ 
+	// 	'post_name' => 'book', 
+	// 	'singular_label' => 'New book', 
+	// 	'plural_label' => 'New books', 
+	// 	'icon' => 'admin-appearance',
+	// 	'supports' => [ 
+	// 		'title',
+	// 		'editor', 
+	// 		'comments', 
+	// 		'revisions', 
+	// 		'trackbacks', 
+	// 		'author', 
+	// 		'excerpt',
+	// 	], 
+	// 	'labels' => [], 
+	// 	'settings' => [], 
+	// ]);
+	// echo 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadfwfda';
 
 	//delete_acpt_post_type
-	delete_acpt_post_type('book', true);
+	// delete_acpt_post_type('book', true);
+
+	//assoc_acpt_taxonomy_to_acpt_post
+	assoc_acpt_taxonomy_to_acpt_post('ctax', 'post');
 
 	/**
 	 * Functions hooked in to storefront_single_post_bottom action

@@ -1,1 +1,0 @@
-a:6:{s:1:"k";s:32:"9127daed08c4562d7313cbc244e93730";s:1:"d";a:1:{i:0;O:8:"stdClass":1:{s:5:"count";s:1:"2";}}s:1:"g";a:1:{i:0;s:32:"5501220a8c7b1d12cbf7300ce34cc29f";}s:1:"e";O:8:"DateTime":3:{s:4:"date";s:26:"2025-07-24 10:06:14.133005";s:13:"timezone_type";i:3;s:8:"timezone";s:3:"UTC";}s:1:"m";N;s:1:"c";N;}
