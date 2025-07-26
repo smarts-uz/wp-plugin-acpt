@@ -73,14 +73,19 @@
 	//  ]);
 
 	//get_acpt_meta_group_objects
-	echo '<pre>';
-	print_r (get_acpt_meta_group_objects());
-	echo '</pre>';
+	// echo '<pre>';
+	// print_r (get_acpt_meta_group_objects());
+	// echo '</pre>';
 
 	//get_acpt_meta_group_object
-	echo '<pre>';
-	print_r (get_acpt_meta_group_object('group-first'));
-	echo '</pre>';
+	// echo '<pre>';
+	// print_r (get_acpt_meta_group_object('group-first'));
+	// echo '</pre>';
+
+	//get_acpt_box_object
+	// echo '<pre>';
+	// print_r (get_acpt_box_object('group-first'));
+	// echo '</pre>';
 
 	/**
 	 * Functions hooked in to storefront_single_post_bottom action
